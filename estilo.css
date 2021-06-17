@@ -1,0 +1,119 @@
+body{
+    background-color: lightgray;
+}
+
+div.contenido{
+    margin:auto;
+    background-color:white;
+    padding:20px;
+    max-width: 900px;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 5px
+}
+
+a.parte1{
+    font-family: 'Lucida Sans Unicode',arial;
+    color:rgb(85, 124, 13);
+}
+
+a.parte2{
+    font-family: 'Lucida Sans Unicode',arial;
+    color:rgb(192,120,12);
+}
+
+a.inicial{
+    font-family: 'Lucida Sans Unicode',arial;
+    font-weight: normal;
+    float: left;
+    display: block;
+    color:black;
+    text-decoration: none;
+    background-color:rgb(241, 209, 149);
+    padding:8px 20px;
+    width:60px;
+    text-align:center;
+}
+
+a.inicial:hover{
+    background-color:rgb(255,165,0)
+}
+
+a.options{
+    font-family: 'Lucida Sans Unicode',arial;
+    font-weight: normal;
+    float: left;
+    display: block;
+    color:rgb(104, 103, 103);
+    text-decoration: none;
+    background-color:rgb(188, 233, 105);
+    padding:8px 20px;
+    width: 60px;
+    text-align:center;
+}
+
+a.options:hover{
+    background-color:rgb(136, 241, 15);
+    color: black;
+}
+
+h2{
+    color:rgb(109, 168, 41);
+    font-family: 'Lucida Sans Unicode',arial;
+}
+
+h2:after{
+    content: "";
+    display: block;
+    border: 0.5px solid rgb(169, 190, 73);
+}
+
+
+
+p{
+    font-family: 'Lucida Sans Unicode',arial;
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+h3{
+    color:rgb(192, 120, 12)
+}
+
+div.indice{
+    float:left;
+    width:10%;
+    padding:0px;
+    margin-top:30px;
+    margin-left: 10px;
+}
+
+div.texto{
+    border-style: groove;
+    border-color:rgb(218, 218, 218);
+    border-width: 1px;
+    width:81%;
+    padding: 20px;
+    float: right;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0px;
+    width:100px;
+    line-height: 20px;
+}
+
+li{
+    display: inline-block;
+    padding-bottom: 5px;
+}
